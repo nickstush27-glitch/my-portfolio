@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Header Section-->
+        <header class="header">
+            <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--About Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nicholas Mutuku, a Web Developer. I specialize in Frontend Development.</p>
+        </section>
+        
+         <!--Projects Section-->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Mpira Hub</h3>
+                <p>A platform for sports enthusiasts to connect and share information.</p>
+            </div>
+            <div class="project">
+                <h3>Personal Portfolio website</h3>
+                <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <script src="script.js" defer></script>
+        </body>
+        <footer>
+            <p>&copy; 2025 My Personal Portfolio</p>
+        </footer>
+</html>
